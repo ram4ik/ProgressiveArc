@@ -13,6 +13,7 @@
 		1DA56CAE248A87C600FF96BC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1DA56CAD248A87C600FF96BC /* Assets.xcassets */; };
 		1DA56CB1248A87C600FF96BC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1DA56CB0248A87C600FF96BC /* Preview Assets.xcassets */; };
 		1DA56CB4248A87C600FF96BC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1DA56CB2248A87C600FF96BC /* LaunchScreen.storyboard */; };
+		1DA56CBD248A880200FF96BC /* ArcShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DA56CBC248A880200FF96BC /* ArcShape.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		1DA56CB0248A87C600FF96BC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		1DA56CB3248A87C600FF96BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1DA56CB5248A87C600FF96BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1DA56CBC248A880200FF96BC /* ArcShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArcShape.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 		1DA56CA6248A87C000FF96BC /* ProgressiveArc */ = {
 			isa = PBXGroup;
 			children = (
+				1DA56CBB248A87F000FF96BC /* Shapes */,
 				1DA56CA7248A87C000FF96BC /* AppDelegate.swift */,
 				1DA56CA9248A87C000FF96BC /* SceneDelegate.swift */,
 				1DA56CAB248A87C000FF96BC /* ContentView.swift */,
@@ -73,6 +76,14 @@
 				1DA56CB0248A87C600FF96BC /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		1DA56CBB248A87F000FF96BC /* Shapes */ = {
+			isa = PBXGroup;
+			children = (
+				1DA56CBC248A880200FF96BC /* ArcShape.swift */,
+			);
+			path = Shapes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -146,6 +157,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1DA56CBD248A880200FF96BC /* ArcShape.swift in Sources */,
 				1DA56CA8248A87C000FF96BC /* AppDelegate.swift in Sources */,
 				1DA56CAA248A87C000FF96BC /* SceneDelegate.swift in Sources */,
 				1DA56CAC248A87C000FF96BC /* ContentView.swift in Sources */,
